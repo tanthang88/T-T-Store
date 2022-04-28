@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../font/Helvetica/helvetica-neue-regular.ttf");
+}
+*{
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+.swiper-home {
+    width: 100%;
+    height: 40vh;
+}
+.swiper-slide img{
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.max-length {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: -webkit-box;
+    line-height: 1.2;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.max-length-short {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: -webkit-box;
+    line-height: 1.2;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.product-item{
+    width: 100% !important;
+}
+.product-item img{
+    object-fit: cover;
+}
+.cart-payment li{
+    display: flex;
+}
+.bg-gray{
+    background-color: #efefef !important;
+}
+.pro-ribbon span{
+    border: none;
+    padding: .4em;
+    background-color: #e5e5e5;
+}
