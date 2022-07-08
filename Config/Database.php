@@ -2,6 +2,6 @@
 $config['database'] = [
     'host' => 'localhost',
     'username' => 'tanthang',
-    'password' => 'phamtanthang',
+    'password' => 'tanthang88',
     'db_name' => 'web3014',
 ];

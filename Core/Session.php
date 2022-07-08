@@ -5,7 +5,7 @@ namespace Core;
 
 use JetBrains\PhpStorm\NoReturn;
 
-class Session
+class  Session
 {
     public static function Start(){
         session_start();

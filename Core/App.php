@@ -25,7 +25,7 @@ namespace Core {
 
         public function getURL()
         {
-            empty($_SERVER['PATH_INFO']) ? $url = '/' : $url = $_SERVER['PATH_INFO'];
+            empty($_SERVER['REQUEST_URI']) ? $url = '/' : $url = $_SERVER['REQUEST_URI'];
             return $url;
         }
 

@@ -85,7 +85,7 @@ class Cart extends Controller
     public function PaymentCheck(){
         $request = new Request();
         $dataSubmit = $request->getFields();
-        $id_user = Session::data('account')[0]->id_user;
+        $id_user = Session::data('account')[0]->id;
         $dataOrderInfo = json_encode($dataSubmit, JSON_UNESCAPED_UNICODE);
         $dataCart = json_encode(Session::data('cart'),JSON_UNESCAPED_UNICODE);
         $dataAccount = json_encode(Session::data('account'),JSON_UNESCAPED_UNICODE);
